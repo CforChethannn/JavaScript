@@ -1,5 +1,6 @@
-var b = function add(){
-    return 2+3;
-}
+// this is arrow funtion
 
-console.log(b())
+var b = ()=>{
+    return "Kia"
+}
+console.log(b());
