@@ -525,7 +525,7 @@
 //     console.log(OTP())
 
 // // 2. Reverse a 3-letter string manually.
-    var str = "ZOM"
+    // var str = "ZOM"
 
 //     var revstr = "";
 //     let i=str.length-1;
@@ -611,3 +611,75 @@
 
 // ---------------------------------------------------------------------
 
+// # Part 1 — Functions Basics (1–20)
+
+// ---------------------------------------------------------------------
+// ## Beginner Level
+
+// // 1. Create a function named `greet` that prints `"Hello World"`.
+//     function greet(){
+//         console.log("Hello....")
+//     }
+
+// // 2. Create a function `add(a, b)` that returns the sum.
+//     function sum(a,b){
+//         return a+b;
+//     }
+
+// // 3. Write a function to calculate the square of a number.
+//         function square(n){
+//             return n**2;
+//         }
+
+// // 4. Create a function that checks whether a number is even or odd.
+//         function checkErO(n){
+//             return (n%2==0)?"even":"Odd";
+//         }
+//         console.log(checkErO(7))
+
+// // 5. Write a function that converts Celsius to Fahrenheit.
+//         function cel2Fah(c){
+//             return (c*(9/5)+32);
+//         }
+//         console.log(cel2Fah(30))
+
+// // 6. Create a function with default parameter `"Guest"`.
+
+//         function greet (user = "guest"){
+//             return("hello..."+user)
+//         }
+
+//         console.log(greet("Chethan"));
+
+// // 7. Write a function that returns the greater of two numbers.
+//         var large = (a,b)=>((a>b)?a:b);
+//         console.log(large(14,5))
+
+// // 8. Create a function to calculate area of rectangle.
+//         var area = (l,b)=>{  return l*b }
+//         console.log(area(14,5))
+
+
+// // 9. Write a function that returns `"Adult"` if age ≥ 18 else `"Minor"`.
+//         function Agecheck(age){
+//             if(age>=18){
+//                 return "Adult"
+//             }else{
+//                 return "Child"
+//             }
+//         }
+
+//         console.log(Agecheck(8))
+
+// // 10. Create a function to reverse a string.
+
+//         function revString(str){
+//             let rev = "";
+//             for(let i=str.length-1; i>=0; i--){
+//                 rev += str[i];
+//             }
+//             return rev;
+//         }
+//         console.log(revString("ZooM"))
+
+// ---------------------------------------------------------------------
