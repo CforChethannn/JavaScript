@@ -680,6 +680,105 @@
 //             }
 //             return rev;
 //         }
-//         console.log(revString("ZooM"))
+// //         console.log(revString("ZooM"))
+
+// ---------------------------------------------------------------------
+    // Intermediate Level
+
+// // 1. Write a function expression for multiplication.
+//     var mal = function(a,b){
+//         return a*b;
+//     }
+
+// // 2. Convert a normal function into an arrow function.
+//     var malti = (a,b)=>{a*b}
+
+// 3. Create a function that accepts unlimited numbers and returns their sum using rest operator.
+    // var sum = (...c)=>{
+    //     return c.reduce((sum,ele)=>sum+ele,0);
+    // }
+    // console.log(sum(10,20,30,40))
+
+// 4. Write a function that counts vowels in a string.
+    // var str = 'I am Chethan G P'
+
+     // // Type One --------------
+    
+    // var vCount = (str)=>{
+    //     let count=0;
+    //     for(let i=0; i<=str.length-1; i++){
+    //         if ("aeiou".includes(str[i].toLowerCase()))
+    //             count++;
+    //     }
+    //     return count;
+    // }
+    // console.log(vCount(str))
+
+    // //Type One --------------
+
+    // var vCount2 = (str)=>{
+    //     let count=0;
+    //     str.toLowerCase().trim().split("").forEach(element => {
+    //         if("aeiou".includes(element))
+    //             count++;
+    //     });
+    //     return count;
+    // }
+    // console.log(vCount2(str));
+
+// 5. Create a function that checks if a string is palindrome.
+
+    //  // function taken from above--------
+    // var palindromeCheck = (str)=>{
+    //     let revstr = revString(str);
+    //     if(revstr === str)
+    //         return "Pallindrom"
+    //     else
+    //         return "Not a Pallindrom"
+    // }
+    // console.log(palindromeCheck("ZooZ"))
+
+// 6. Write a callback function example using `setTimeout`.
+
+    // setTimeout(()=>{
+    //     console.log("Priint after 3sec...")
+    // },3000)
+
+// 7. Create a higher-order function that executes another function twice.
+    // var kk = setInterval(()=>{
+    //     console.log("This is HigherOrder function that execute twice..")
+    // },2000);
+    // setTimeout(()=>{
+    //     console.log("gi")
+    //     clearInterval(kk);
+    // },4000)
+
+// 8. Write a function that returns another function.
+//     var square = function (n){
+//         return n**2
+//     }
+//  var squarRoot = ()=>{
+//     return square;
+//  }
+//  console.log(squarRoot()(5))
+
+// 9. Create a pure function for subtraction.
+
+// function sub(a,b){
+//     return a-b;
+// }
+
+// 10. Create an impure function using global variable modification.
+
+    // var count=0;
+
+    // function inc(){
+    //     return count++;
+    // }
+
+    // console.log(inc())
+    // console.log(inc())
+    // console.log(inc())
+    // console.log(count)
 
 // ---------------------------------------------------------------------
