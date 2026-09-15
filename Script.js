@@ -394,3 +394,23 @@
 //     }
 
 // ---------------------------------------------------------------------
+
+// ## Ternary Operator
+
+// // 1. Check whether a number is even or odd using ternary operator.
+    
+//     (12%2===0)? console.log("Even"):console.log("Odd");
+
+//     // OR
+
+//     console.log( 13%2===0 ? 'even':'odd')
+
+
+// // 2. Check whether age is above 18 using ternary operator.
+
+//     console.log( 12>=18 ? '18+':'17-')
+
+// // 3. Find the greater number between two values using ternary operator.
+//     console.log( 12>=18 ? '12':'18')
+
+// ---------------------------------------------------------------------
