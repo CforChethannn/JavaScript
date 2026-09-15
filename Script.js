@@ -513,3 +513,101 @@
 
 // 5. Check whether a product is in stock.
 // 6. Calculate final bill after GST.
+
+// ---------------------------------------------------------------------
+
+// ## Challenge Questions for Beginners
+
+// // 1. Generate a random OTP of 4 digits.
+//     var OTP = ()=>{
+//         return Math.floor(1000+Math.random()*9000)
+//     }
+//     console.log(OTP())
+
+// // 2. Reverse a 3-letter string manually.
+    var str = "ZOM"
+
+//     var revstr = "";
+//     let i=str.length-1;
+//     while( i>-1 ){
+//         revstr += str[i--];
+//     }
+//     console.log(revstr);
+
+// // 3. Find the last character of a string.
+//     console.log(str[str.length-1]);
+
+//     // or
+
+//     console.log(str.at(-1))
+
+// 4. Convert a full name into uppercase initials.
+
+    // cosnverting every word first letter to uppercase
+    // var fname = 'chethan g p '
+    // function uppercaseInitals(fname){
+    //     return fname.trim().split(" ").map((ele)=>{
+    //         return (ele[0].toUpperCase() + ele.slice(1).toLowerCase());
+    //     }).join(" ")
+    // }
+    // console.log(uppercaseInitals(fname));
+
+    // uppercase initials.
+    // var arr =  ['chethan', 'g', 'p']
+    // var init = ''
+    // arr.forEach((ele)=>{
+    //    init += ele[0].toUpperCase();
+    //    console.log(ele)
+    // })
+
+    // console.log(init)
+
+// 5. Check whether two strings are equal ignoring case sensitivity.
+
+    // if("Five" === "Five")
+    //     console.log("casesensitivr")
+    // else
+    //     console.log("NO")
+
+// // 6. Create a simple login validation system.
+
+//     var user = "chethan G P"
+//     var pass = "Chethu@842005"
+
+//     if(user.trim().toLowerCase() === "chethan g p" && pass.trim() === "Chethu@842005" )
+//         console.log("Loged In");
+//     else
+//         console.log("UserName or Password Wrong");
+        
+
+// // 7. Find whether a number is a 2-digit or 3-digit number.
+//     var n = 10
+//     if(n>=10 && n<=99)
+//         console.log("2 digit")
+//     else if(n>=100 && n<=999)
+//         console.log("3 digit")
+
+
+// // 8. Create a mini ATM balance checker.
+//     let balance = 0;
+
+
+
+// // 9. Simulate a traffic light system using `switch`.
+
+//     var col = "green"
+//     switch(col){
+//         case 'red': console.log("Stop...");
+//                     break;
+//         case 'green': console.log("Goo...");
+//                     break;
+//         case 'yellow': console.log("Ready...");
+//                     break;
+//         default:console.log("NOT working OR invalid Color")
+//     }
+
+// // 10. Build a small marksheet generator using variables and conditionals.
+
+
+// ---------------------------------------------------------------------
+
