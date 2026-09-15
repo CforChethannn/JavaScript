@@ -358,3 +358,39 @@
 //         console.log("access denaid..")
 
 // ---------------------------------------------------------------------
+
+// ## Truthy & Falsy
+
+// 1. Check whether an empty string is truthy or falsy. ---falsyy
+//     var str = ''
+//     if(str){
+//         console.log("true")
+//     }else{
+//         console.log("falsyy")
+//     }
+
+// // 2. Check whether `0` is truthy or falsy.
+//     if(1){
+//         console.log("true")
+//     }else{
+//         console.log("falsyy")
+//     }
+
+// // 3. Check whether `[]` is truthy or falsy.
+//     var arr = [] //--> empty array is truthyy
+//     if(arr){
+//         console.log("true")
+//     }else{
+//         console.log("falsyy")
+//     }
+
+// // 4. Create a variable and print `"Valid"` if it has a value otherwise print `"Invalid"`.
+//     var b = 10;
+//     console.log(b)
+//     if(b){
+//         console.log("Valid")
+//     }else{
+//         console.log("Invalid")
+//     }
+
+// ---------------------------------------------------------------------
