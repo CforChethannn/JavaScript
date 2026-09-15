@@ -414,3 +414,76 @@
 //     console.log( 12>=18 ? '12':'18')
 
 // ---------------------------------------------------------------------
+
+// ## Mixed Practice Questions
+
+// 1. Create a mini biodata program using variables and template literals.
+//     var name = "chethan G P";
+//     var age = 22;
+//     var place = 'Mysuru'
+
+//     console.log(`My name is ${name} I am ${age} year old and my native is ${place}`)
+
+
+// // 2. Calculate the area of a rectangle.
+//     var area = (b,h)=>{
+//         return b*h
+//     }
+//     console.log(area(5,5))
+
+// // 3. Calculate the simple interest.
+//     var SI = pTr/100;
+
+
+// // 4. Convert temperature from Celsius to Fahrenheit.
+    
+//     var f = 30 * (9/5) + 32;
+//     console.log(f);
+
+// // 5. Convert kilometers into meters.
+//     function km2m(km){
+//         return(km*1000)
+//     }
+//     console.log(km2m(5));
+
+
+// // 6. Calculate total marks and percentage of 5 subjects.
+//     tmarks = s1+s2+s3+s5;
+//     perc = (tmarks/400)*100;
+
+// // 7. Calculate electricity bill based on units consumed.
+
+
+// // 8. Create a username generator using first name and birth year.
+//     var fname = "chethan";
+//     var dob  = 842005;
+
+//     function gen(fname,dob){
+//         let cleanName = fname.trim();
+//         let randno = Math.floor(Math.random()*10000);
+        
+//         return `${cleanName}_${randno}_${dob}`;
+//     }
+
+//     console.log(gen(fname,dob))
+    
+
+// // 9. Check whether a string starts with a specific letter.
+//     let str1  = "I am Chethan"
+    
+//     Built in
+//     console.log(str1.startsWith("i"))
+
+
+
+//     Manual
+
+//     if(str1[0] === "I")
+//         console.log("True")
+//     else
+//         console.log("False")
+
+// // 10. Count the total characters in a sentence excluding spaces.
+
+// ---------------------------------------------------------------------
+
