@@ -234,3 +234,127 @@
 
 // ---------------------------------------------------------------------
 
+// ## Conditionals
+
+// 1. Check whether a number is positive or negative.
+//     var a = 10;
+//     var b = -5;
+//     if(b>-1)
+//         console.log("+ve");
+//     else
+//         console.log("-ve");
+
+// // 2. Check whether a number is even or odd.
+//     if(b%2==0)
+//         console.log("Even..")
+//     else
+//         console.log("Odd..")
+
+// // 3. Check whether a person is eligible to vote.
+
+// var age = 18;
+//     if(age>=18)
+//         console.log("Eligable..")
+//     else
+//         console.log("Not Eligable..")
+
+// // 4. Find the largest among two numbers.
+//     if(a>b)
+//         console.log("a larger..")
+//     else
+//         console.log("b larger");
+
+
+// // 5. Find the largest among three numbers.
+//     let c = 20
+//     if(a>b){
+//         if(a>c)
+//             console.log("a larger..");
+//         else
+//             console.log('c larger..');
+//     }else if(b>c){
+//         console.log('b larger..');
+        
+//     }
+
+// // 6. Check whether a year is a leap year.
+//     var year = 2024;
+//     if((year%100 !== 0 && year%4 === 0 ) || (year%400 === 0 ))
+//         console.log(year + " is a leap year..")
+//     else
+//         console.log(year + " is not a leap year..")
+
+// // 7. Check whether a number is divisible by both 3 and 5.
+//     if((15%3 === 0) && (15%5===0))
+//         console.log("yaah divisible by both 3 and 5")
+//     else
+//         console.log("not divisible by both 3 and 5")
+
+// // 8. Create a simple grading system:
+// // - 90+ → A
+// // - 75+ → B
+// // - 50+ → C
+// // - below 50 → Fail
+//     var marks = 49;    
+//     if(marks>=90 && marks<=100)
+//         console.log("A grade")
+//     else if(marks>=75 && marks<=89)
+//         console.log("B grade")
+//     else if(marks>=50 && marks<=74)
+//         console.log("C grade")
+//     else
+//         console.log("Fail....")
+
+// // 1. Check whether a character is a vowel or consonant.
+//     var ch = 'c'
+//     if ((ch==='a') || (ch==='e') || (ch==='i') || (ch==='o') || (ch==='u') )
+//         console.log(ch+ ' is a vowels');
+//     else
+//         console.log(ch+ ' is not a vowels');
+
+// // 2. Create a calculator using `switch` statement.
+//     var sym ='**';
+//     switch(sym){
+//         case '+': console.log(a+c);
+//                     break;
+//         case '-': console.log(a-c);
+//                     break;
+//         case '/': console.log(a/c);
+//                     break;
+//         case '%': console.log(a%c);
+//                     break;
+//         case '*': console.log(a*c);
+//                     break;
+//         default: console.log("Illegal operator...");
+//     }
+
+// // 3. Print the day name based on a number (1–7).
+//     var day = 8;
+//     switch(day){
+//         case 1: console.log("Monday");
+//                     break;
+//         case 2: console.log("Tuesday");
+//                     break;
+//         case 3: console.log("wed");
+//                     break;
+//         case 4: console.log("thurs");
+//                     break;
+//         case 5: console.log("Fri");
+//                     break;
+//         case 6: console.log("Sat");
+//                     break;
+//         case 7: console.log("Sunday");
+//                     break;
+//         default: console.log("Illegal day number...");
+//     }
+
+// // 4. Check whether a username is `"admin"` and password is `"1234"`.
+//     var username = 'admin';
+//     var pass = '1234';
+    
+//     if (username === "admin" && pass ==="1234")
+//         console.log("access granted..")
+//     else
+//         console.log("access denaid..")
+
+// ---------------------------------------------------------------------
